@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f59f6514-319f-4e5a-b834-f4ad2c0eeca0" name="yaowen@YAOWEN-PC 2012-05-16 20:25:05" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="db2fda1d-3276-4949-a3e6-89f8c2dc06c1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-05-16 20_25_05">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\sell_ticket.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\Castle.Core.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\Iesi.Collections.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-16T20:25:05.2347303+08:00" queuing="2012-05-16T20:25:06.6798130+08:00" start="2012-05-16T20:25:06.7718182+08:00" finish="2012-05-16T20:25:10.7960484+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="f:\常用软件\git\shiyan1\selltickettext\selltickettext\bin\debug\selltickettext.dll" id="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504">
+      <Execution id="48c81191-939d-43b6-b71a-1f1558729d87" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/SellTicketText/SellTicketText/bin/Debug/SellTicketText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SellTicketText.UnitTest1, SellTicketText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504" executionId="48c81191-939d-43b6-b71a-1f1558729d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="48c81191-939d-43b6-b71a-1f1558729d87" testId="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504" testName="TestMethod2" computerName="YAOWEN-PC" duration="00:00:02.0604616" startTime="2012-05-16T20:25:06.8338218+08:00" endTime="2012-05-16T20:25:10.6840420+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48c81191-939d-43b6-b71a-1f1558729d87">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SellTicketText.UnitTest1.TestMethod2 引发了异常: 
+NHibernate.MappingException: No persister for: sell_ticket.seat</Message>
+          <StackTrace>    在 NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   在 NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   在 NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   在 NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   在 NHibernate.Impl.SessionImpl.FireSave(SaveOrUpdateEvent event)
+   在 NHibernate.Impl.SessionImpl.Save(Object obj)
+   在 sell_ticket.NHibernateSample.CreateSeat(seat Seat) 位置 F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\NHibernateSample.cs:行号 35
+   在 SellTicketText.UnitTest1.TestMethod2() 位置 F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\UnitTest1.cs:行号 119
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

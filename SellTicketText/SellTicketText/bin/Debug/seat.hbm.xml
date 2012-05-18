@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="sell_ticket" assembly="sell_ticket">
+	<class name="seat" table="seat">
+		<id name="Id" column="id">
+			<generator class="assigned"/>
+		</id> 
+		<property name ="num" column="num" type="int"   />
+		<property name ="num1" column="num1" type="int"   />
+		<property name ="num2" column="num2" type="int"   />
+		<property name ="num3" column="num3" type="int"   />
+		<property name ="num4" column="num4" type="int"   />
+		<property name ="num5" column="num5" type="int"   />
+		<property name ="num6" column="num6" type="int"   />
+		<property name ="num7" column="num7" type="int"   />
+		<property name ="num8" column="num8" type="int"   />
+		<property name ="num9" column="num9" type="int"   />
+		<property name ="num10" column="num10" type="int"   >
+		</property>
+
+	</class>
+</hibernate-mapping>

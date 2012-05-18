@@ -1,0 +1,5 @@
+F:\常用软件\Git\shiyan1\SellTicketText\Share\bin\Debug\Share.dll
+F:\常用软件\Git\shiyan1\SellTicketText\Share\bin\Debug\Share.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\Share\obj\Debug\ResolveAssemblyReference.cache
+F:\常用软件\Git\shiyan1\SellTicketText\Share\obj\Debug\Share.dll
+F:\常用软件\Git\shiyan1\SellTicketText\Share\obj\Debug\Share.pdb

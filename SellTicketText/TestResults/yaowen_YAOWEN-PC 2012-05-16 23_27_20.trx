@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0706d007-e93b-48c1-9bc8-141b632411ad" name="yaowen@YAOWEN-PC 2012-05-16 23:27:20" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="db2fda1d-3276-4949-a3e6-89f8c2dc06c1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-05-16 23_27_20">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\sell_ticket.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\Castle.Core.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\Iesi.Collections.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-16T23:27:20.6782019+08:00" queuing="2012-05-16T23:27:22.1752875+08:00" start="2012-05-16T23:27:22.3452973+08:00" finish="2012-05-16T23:27:26.7555495+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="f:\常用软件\git\shiyan1\selltickettext\selltickettext\bin\debug\selltickettext.dll" id="a1e2a89f-6c5d-502d-0b88-631515a21cf7">
+      <Execution id="9e98589b-6d15-485a-b25e-376c8d8d2011" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/SellTicketText/SellTicketText/bin/Debug/SellTicketText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SellTicketText.UnitTest1, SellTicketText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a1e2a89f-6c5d-502d-0b88-631515a21cf7" executionId="9e98589b-6d15-485a-b25e-376c8d8d2011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e98589b-6d15-485a-b25e-376c8d8d2011" testId="a1e2a89f-6c5d-502d-0b88-631515a21cf7" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:02.2494617" startTime="2012-05-16T23:27:22.5163071+08:00" endTime="2012-05-16T23:27:26.6515436+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e98589b-6d15-485a-b25e-376c8d8d2011">
+    </UnitTestResult>
+  </Results>
+</TestRun>

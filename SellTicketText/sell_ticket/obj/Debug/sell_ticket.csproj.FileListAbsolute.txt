@@ -1,0 +1,11 @@
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\sell_ticket.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\sell_ticket.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\obj\Debug\ResolveAssemblyReference.cache
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\obj\Debug\sell_ticket.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\obj\Debug\sell_ticket.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\Iesi.Collections.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\NHibernate.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\NHibernate.ByteCode.Castle.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\ticket.hbm.xml
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\Castle.Core.dll
+F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\seat.hbm.xml

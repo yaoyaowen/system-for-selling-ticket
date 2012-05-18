@@ -1,0 +1,15 @@
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\obj\Debug\ResolveAssemblyReference.cache
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\SellTicketText.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\SellTicketText.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\Iesi.Collections.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\NHibernate.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\sell_ticket.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\sell_ticket.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\obj\Debug\SellTicketText.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\obj\Debug\SellTicketText.pdb
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\hibernate.cfg.xml
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\ticket.hbm.xml
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\castle.dynamicproxy2.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\Castle.Core.dll
+F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\bin\Debug\seat.hbm.xml

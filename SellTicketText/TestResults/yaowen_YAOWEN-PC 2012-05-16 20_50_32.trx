@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5a404014-2e63-40a7-8786-64b4fea37b01" name="yaowen@YAOWEN-PC 2012-05-16 20:50:32" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="db2fda1d-3276-4949-a3e6-89f8c2dc06c1">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-05-16 20_50_32">
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\bin\sell_ticket.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\Castle.Core.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\Iesi.Collections.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="F:\常用软件\Git\shiyan1\SellTicketText\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-16T20:50:32.6800952+08:00" queuing="2012-05-16T20:50:34.1521794+08:00" start="2012-05-16T20:50:34.3321897+08:00" finish="2012-05-16T20:50:57.4885142+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="f:\常用软件\git\shiyan1\selltickettext\selltickettext\bin\debug\selltickettext.dll" id="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504">
+      <Execution id="dcfe0a3d-0f8e-44a1-b354-3e1131fff8e9" />
+      <TestMethod codeBase="F:/常用软件/Git/shiyan1/SellTicketText/SellTicketText/bin/Debug/SellTicketText.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SellTicketText.UnitTest1, SellTicketText, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504" executionId="dcfe0a3d-0f8e-44a1-b354-3e1131fff8e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dcfe0a3d-0f8e-44a1-b354-3e1131fff8e9" testId="fa9ec2fd-cdaa-6734-2723-7e17e4bf8504" testName="TestMethod2" computerName="YAOWEN-PC" duration="00:00:21.1237284" startTime="2012-05-16T20:50:34.4851985+08:00" endTime="2012-05-16T20:50:57.3965089+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcfe0a3d-0f8e-44a1-b354-3e1131fff8e9">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SellTicketText.UnitTest1.TestMethod2 引发了异常: 
+NHibernate.TypeMismatchException: Provided id of the wrong type. Expected: System.Int32, got System.String</Message>
+          <StackTrace>    在 NHibernate.Event.Default.DefaultLoadEventListener.OnLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.FireLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.Get(String entityName, Object id)
+   在 NHibernate.Impl.SessionImpl.Get(Type entityClass, Object id)
+   在 NHibernate.Impl.SessionImpl.Get[T](Object id)
+   在 sell_ticket.NHibernateSample.GetSeatById(String SeatId) 位置 F:\常用软件\Git\shiyan1\SellTicketText\sell_ticket\NHibernateSample.cs:行号 44
+   在 SellTicketText.UnitTest1.TestMethod2() 位置 F:\常用软件\Git\shiyan1\SellTicketText\SellTicketText\UnitTest1.cs:行号 120
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
