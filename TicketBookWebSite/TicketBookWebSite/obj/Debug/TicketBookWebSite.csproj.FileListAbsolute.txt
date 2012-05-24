@@ -1,0 +1,14 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb

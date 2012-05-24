@@ -1,0 +1,245 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>filter(css滤镜)</title>
+<style type="text/css">
+body {
+ margin: 0px;
+ padding: 0px;
+}
+table {
+ font-size: 12px;
+ border: 1px solid #0000FF;
+}
+tr,td {
+ padding: 0px;
+ border: 1px solid #0000FF;
+}
+</style>
+<script language="JavaScript">
+</script>
+</head>
+<body>
+<strong>filter视觉滤镜的种类</strong>
+<div>
+<table>
+ <tr>
+  <td width=80>Alpha(透明度)</td>
+  <td width=80>Blur(模糊)</td>
+  <td width=80>Chroma(指定颜色透明)</td>
+  <td width=80>DropShadow(不透明阴影)</td>
+  <td width=80>FlipH&FlipV(翻转)</td>
+  <td width=80>Glow(边缘光晕)</td>
+  <td width=80>Gray(去色)</td>
+  <td width=80>Invert(底片效果)</td>
+  <td width=80>Mask(遮照效果)</td>
+  <td width=80>filter:Shadow(影子)</td>
+  <td width=80>Wave(波浪)</td>
+  <td width=80>Xray(轮廓加亮)</td>
+ </tr>
+ <tr>
+  <td height=140><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Alpha(style=2)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Blur(add=0,direction=90,strength=20)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Chroma(color=#08B218)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Dropshadow(color=#FF3300,offX=5,offY=5,positive=1)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:FlipV"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Glow(color=#33FF33,strength=10)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Gray"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Invert"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Mask(color=#0000FF)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:shadow(color=red,direction=135)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Wave(add=0,freq=3,strength=10,lightstrength=20,phase=50)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Xray"></td>
+ </tr>
+</table>
+</div><br>
+<strong>Alpha:</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>开始透明度(opacity):100<br>结束透明度(finishopacity):0<br>开始位置(startX,startY):(0,0)<br>结束位置(finishX,finishY):(50,50)</td>
+  <td width=200>开始透明度(opacity):70<br>结束透明度(finishopacity):20<br>开始位置(startX,startY):(0,0)<br>结束位置(finishX,finishY):(50,50)</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Alpha(style=1,opacity=100,finishopacity=0,startX=0,startY=0,finishX=50,finishY=50)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Alpha(style=1,opacity=70,finishopacity=20,startX=0,startY=0,finishX=50,finishY=50)")</td>
+ </tr>
+</table>
+</div><br>
+<strong>Blur:</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>显示原来的图片，且以270度的方向模糊20px</td>
+  <td width=200>不显示原来的图片，且以90度方向模糊20px</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:blur(add=1,direction=270,strength=20)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:blur(add=0,direction=90,strength=20)"></td>
+ </tr>
+</table>
+</div><br>
+<strong>Chroma</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>Chroma指定的字体颜色(我是CCHXP)变为透明</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Chroma(color=#08B218)"></td>
+ </tr>
+</table>
+</div><br>
+<strong>DropShadow</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置阴影颜色为淡绿色，往右移5px，往下移5px，且阴影呈不透明的效果。</td>
+  <td width=200>设置阴影颜色为粉红色，往左移5px，往上移5px，且阴影呈不透明的效果。</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:DropShadow(color=lightgreen,offX=5px,offY=5px,positive=1)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:DropShadow(color=pink,offX=-5,offY=-5,positive=1)"></td>
+ </tr>
+</table>
+</div><br>
+<strong>FlipH&FlipV</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置图片水平翻转FlipH</td>
+  <td width=200>设置图片垂直翻转FlipV</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:FlipH"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:FlipV"></td>
+ </tr>
+</table>
+</div><br>
+<strong>Glow</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置图片光晕颜色为黄色，强度为10</td>
+  <td width=200>设置图片光晕颜色为红色，强度为20</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Glow(color=yellow,strength=10)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Glow(color=pink,strength=20)"></td>
+ </tr>
+</table>
+</div>
+<strong>Gray</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>将图片的颜色去除，以达到灰色效果</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Gray"></td>
+ </tr>
+</table>
+</div>
+<strong>Invert</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置图片颜色呈底片效果</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Invert"></td>
+ </tr>
+</table>
+</div>
+<strong>Mask</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置图片的屏蔽颜色为蓝色</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Mask(color=#0000FF)"></td>
+ </tr>
+</table>
+</div>
+<strong>Shadow</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>设置图片阴影颜色为绿色，往225度方向</td>
+  <td width=200>设置图片阴影颜色为红色，往135度方向</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Shadow(color=green)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Shadow(color=red)"></td>
+ </tr>
+</table>
+</div>
+<strong>Wave</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>不显示原始图片，有5个振幅为20象素的波浪，其光的强度为30，波浪其始位置为50</td>
+  <td width=200>显示原始图片，有3个振幅为50象素的波浪，其光的强度为50，波浪起始位置为100</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Wave(add=0,freq=5,strength=20,lightstrength=30,phase=50)"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Wave(add=1,freq=3,strength=50,lightstrength=50,phase=100)"></td>
+ </tr>
+</table>
+</div>
+<strong>Xray</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>X光照片的效果</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Xray"></td>
+ </tr>
+</table>
+</div>
+<strong>Gray&Invert&Xray比较</strong>
+<div>
+<table>
+ <tr>
+  <td width=200>原始图片</td>
+  <td width=200>Gray效果</td>
+  <td width=200>Invert效果</td>
+  <td width=200>Xray效果</td>
+ </tr>
+ <tr>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Gray"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Invert"></td>
+  <td><img src=http://www.blueidea.com/img/common/logo.gif style="filter:Xray"></td>
+ </tr>
+</table>
+</div>
+</body>
+</html>

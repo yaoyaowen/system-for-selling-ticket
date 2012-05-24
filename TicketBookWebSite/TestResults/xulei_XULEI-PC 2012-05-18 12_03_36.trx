@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e9022a3d-f2b2-4bad-9e50-f19365c26395" name="xulei@XULEI-PC 2012-05-18 12:03:36" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-05-18 12_03_36">
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T12:03:36.8498366+08:00" queuing="2012-05-18T12:03:37.0868502+08:00" start="2012-05-18T12:03:37.1258524+08:00" finish="2012-05-18T12:03:39.5539913+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ValidateUserTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="5780f410-d702-42ab-87db-8db271c0c628" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="5780f410-d702-42ab-87db-8db271c0c628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5780f410-d702-42ab-87db-8db271c0c628" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="XULEI-PC" duration="00:00:02.0048848" startTime="2012-05-18T12:03:37.1928562+08:00" endTime="2012-05-18T12:03:39.5159891+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5780f410-d702-42ab-87db-8db271c0c628">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UserSessionTest.ValidateUserTest 引发了异常: 
+NHibernate.Hql.Ast.ANTLR.QuerySyntaxException: UserInfo is not mapped [from UserInfo where username=xulei and password=050126]</Message>
+          <StackTrace>    在 NHibernate.Hql.Ast.ANTLR.SessionFactoryHelperExtensions.RequireClassPersister(String name)
+   在 NHibernate.Hql.Ast.ANTLR.Tree.FromElementFactory.AddFromElement()
+   在 NHibernate.Hql.Ast.ANTLR.Tree.FromClause.AddFromElement(String path, IASTNode alias)
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.fromElement()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.fromElementList()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.fromClause()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.unionedQuery()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.query()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.selectStatement()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlWalker.statement()
+   在 NHibernate.Hql.Ast.ANTLR.HqlSqlTranslator.Translate()
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.DoCompile(IDictionary`2 replacements, Boolean shallow, String collectionRole)
+   在 NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory.CreateQueryTranslators(IASTNode ast, String queryIdentifier, String collectionRole, Boolean shallow, IDictionary`2 filters, ISessionFactoryImplementor factory)
+   在 NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory.CreateQueryTranslators(String queryString, String collectionRole, Boolean shallow, IDictionary`2 filters, ISessionFactoryImplementor factory)
+   在 NHibernate.Engine.Query.QueryPlanCache.GetHQLQueryPlan(String queryString, Boolean shallow, IDictionary`2 enabledFilters)
+   在 NHibernate.Impl.AbstractSessionImpl.GetHQLQueryPlan(String query, Boolean shallow)
+   在 NHibernate.Impl.AbstractSessionImpl.CreateQuery(String queryString)
+   在 DAL.Handle.UserSession.ValidateUser(String username, String password) 位置 C:\Users\xulei\Desktop\TicketBookWebSite\DAL\Handle\UserSession.cs:行号 22
+   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

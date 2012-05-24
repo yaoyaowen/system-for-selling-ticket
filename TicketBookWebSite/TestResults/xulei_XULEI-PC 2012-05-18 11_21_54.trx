@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f48c92d5-e3ba-4435-bce5-d45ed22bea47" name="xulei@XULEI-PC 2012-05-18 11:21:54" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-05-18 11_21_54">
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T11:21:54.6927214+08:00" queuing="2012-05-18T11:21:55.9927958+08:00" start="2012-05-18T11:21:56.1548050+08:00" finish="2012-05-18T11:22:05.1153175+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="XULEI-PC" outcome="Error" timestamp="2012-05-18T11:22:05.1113173+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="607ffe3d-1e31-4619-8cd2-977956d29f83" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="607ffe3d-1e31-4619-8cd2-977956d29f83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="607ffe3d-1e31-4619-8cd2-977956d29f83" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="XULEI-PC" duration="00:00:08.8345053" startTime="2012-05-18T11:21:56.2808122+08:00" endTime="2012-05-18T11:22:05.1153175+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607ffe3d-1e31-4619-8cd2-977956d29f83">
+    </UnitTestResult>
+  </Results>
+</TestRun>
