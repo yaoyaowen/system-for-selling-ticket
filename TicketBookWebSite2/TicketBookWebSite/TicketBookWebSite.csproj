@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DAA62B1-ED0A-4699-80F9-4DB99B0D526C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TicketBookWebSite</RootNamespace>
+    <AssemblyName>TicketBookWebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Calan.htm" />
+    <Content Include="css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\ui-lightness\jquery-ui-1.8.20.custom.css" />
+    <Content Include="datepicker.htm" />
+    <Content Include="demo\demo.css" />
+    <Content Include="demo\demo.html" />
+    <Content Include="demo\img\active_bg.png" />
+    <Content Include="demo\img\divider.png" />
+    <Content Include="demo\img\panel.jpg" />
+    <Content Include="demo\img\pic_bg.png" />
+    <Content Include="demo\img\sample_slides\imac.jpg" />
+    <Content Include="demo\img\sample_slides\info.jpg" />
+    <Content Include="demo\img\sample_slides\iphone.jpg" />
+    <Content Include="demo\img\sample_slides\macbook.jpg" />
+    <Content Include="demo\img\sample_slides\thumb_about.png" />
+    <Content Include="demo\img\sample_slides\thumb_imac.png" />
+    <Content Include="demo\img\sample_slides\thumb_iphone.png" />
+    <Content Include="demo\img\sample_slides\thumb_macbook.png" />
+    <Content Include="demo\script.js" />
+    <Content Include="error.htm" />
+    <Content Include="errorAuthority.htm" />
+    <Content Include="filter.htm" />
+    <Content Include="image\btn_go.gif" />
+    <Content Include="image\header-ic.jpg" />
+    <Content Include="image\header_right_top_bg.gif" />
+    <Content Include="image\main_logo.png" />
+    <Content Include="image\yz_0.jpg" />
+    <Content Include="main.htm" />
+    <Content Include="seller\FindTicket.aspx" />
+    <Content Include="image\main_logo.gif" />
+    <Content Include="index.htm" />
+    <Content Include="Json2.0\Newtonsoft.Json.dll" />
+    <Content Include="Json2.0\Newtonsoft.Json.pdb" />
+    <Content Include="Json2.0\Newtonsoft.Json.xml" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="Manager\background_color.jpg" />
+    <Content Include="Manager\car_imag.jpg" />
+    <Content Include="Manager\dealTicket.aspx" />
+    <Content Include="Manager\EditSeller.aspx" />
+    <Content Include="rubbish\About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Data\中国行政区域省市地区数据库下载.mdb" />
+    <Content Include="AreaFoot.htm" />
+    <Content Include="biz\images\arrow.png" />
+    <Content Include="biz\images\bg.png" />
+    <Content Include="biz\images\content_bg.png" />
+    <Content Include="biz\images\content_bottom.png" />
+    <Content Include="biz\images\content_top.png" />
+    <Content Include="biz\images\globe.jpg" />
+    <Content Include="biz\images\image1.jpg" />
+    <Content Include="biz\images\image2.jpg" />
+    <Content Include="biz\images\image3.jpg" />
+    <Content Include="biz\images\image4.jpg" />
+    <Content Include="biz\images\input_bg.png" />
+    <Content Include="biz\images\latest_bg.png" />
+    <Content Include="biz\images\login.png" />
+    <Content Include="biz\images\login_bg.png" />
+    <Content Include="biz\images\logo.png" />
+    <Content Include="biz\images\main_col_bg.png" />
+    <Content Include="biz\images\nav_bg.png" />
+    <Content Include="biz\images\nav_hover.png" />
+    <Content Include="biz\images\service_bg.jpg" />
+    <Content Include="biz\images\side_col_bg.png" />
+    <Content Include="biz\images\test_bg.png" />
+    <Content Include="biz\images\why_bg.png" />
+    <Content Include="biz\index.html" />
+    <Content Include="biz\style.css" />
+    <Content Include="rubbish\BookTicket.aspx" />
+    <Content Include="html\BookTicket.htm" />
+    <Content Include="hibernate.cfg.xml" />
+    <Content Include="image\arrow.png" />
+    <Content Include="image\bg.png" />
+    <Content Include="image\body_background.jpg" />
+    <Content Include="image\content_bg.png" />
+    <Content Include="image\content_bottom.png" />
+    <Content Include="image\content_top.png" />
+    <Content Include="image\globe.jpg" />
+    <Content Include="image\image1.jpg" />
+    <Content Include="image\image2.jpg" />
+    <Content Include="image\image3.jpg" />
+    <Content Include="image\image4.jpg" />
+    <Content Include="image\input_bg.png" />
+    <Content Include="image\latest_bg.png" />
+    <Content Include="image\login.png" />
+    <Content Include="image\login_bg.png" />
+    <Content Include="image\logo.jpg" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\main_col_bg.png" />
+    <Content Include="image\nav_bg.png" />
+    <Content Include="image\nav_hover.png" />
+    <Content Include="image\service_bg.jpg" />
+    <Content Include="image\side_col_bg.png" />
+    <Content Include="image\test_bg.png" />
+    <Content Include="image\why_bg.png" />
+    <Content Include="rubbish\Index.aspx" />
+    <Content Include="html\JqueryDialog.htm" />
+    <Content Include="html\LiElements.htm" />
+    <Content Include="html\ProvinceSelect.htm" />
+    <Content Include="login.htm" />
+    <Content Include="Manager\MainFrame.aspx" />
+    <Content Include="Manager\addTicket.aspx" />
+    <Content Include="Manager\arrow.png" />
+    <Content Include="Manager\ListView.aspx" />
+    <Content Include="Manager\LogoAndShow.aspx" />
+    <Content Include="rubbish\manager.aspx" />
+    <Content Include="seller\LogoAndShow.aspx" />
+    <Content Include="seller\MainFrame.aspx" />
+    <Content Include="Styles\jquery-ui-1.8.20.custom.css" />
+    <Content Include="Scripts\jquery-ui-1.8.20.custom.min.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="rubbish\Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ashx\bookTicket.ashx.cs">
+      <DependentUpon>bookTicket.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\AuthorityModule.cs" />
+    <Compile Include="seller\FindTicket.aspx.cs">
+      <DependentUpon>FindTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\FindTicket.aspx.designer.cs">
+      <DependentUpon>FindTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\dealTicket.aspx.cs">
+      <DependentUpon>dealTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\dealTicket.aspx.designer.cs">
+      <DependentUpon>dealTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\EditSeller.aspx.cs">
+      <DependentUpon>EditSeller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\EditSeller.aspx.designer.cs">
+      <DependentUpon>EditSeller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rubbish\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rubbish\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\codeImage.ashx.cs">
+      <DependentUpon>codeImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="rubbish\BookTicket.aspx.cs">
+      <DependentUpon>BookTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rubbish\BookTicket.aspx.designer.cs">
+      <DependentUpon>BookTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rubbish\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rubbish\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\getCity.ashx.cs">
+      <DependentUpon>getCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\getProvince.ashx.cs">
+      <DependentUpon>getProvince.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="rubbish\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rubbish\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\login.ashx.cs">
+      <DependentUpon>login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\MainFrame.aspx.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\MainFrame.aspx.designer.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\addTicket.aspx.cs">
+      <DependentUpon>addTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\addTicket.aspx.designer.cs">
+      <DependentUpon>addTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\LogoAndShow.aspx.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\LogoAndShow.aspx.designer.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rubbish\manager.aspx.cs">
+      <DependentUpon>manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rubbish\manager.aspx.designer.cs">
+      <DependentUpon>manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seller\LogoAndShow.aspx.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\LogoAndShow.aspx.designer.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seller\MainFrame.aspx.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\MainFrame.aspx.designer.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\ValidateUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\bookTicket.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\login.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{E8455E40-D99E-4CFC-BAA3-76D9CDE8EEB5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{690F55E7-A57A-4DA4-8F53-D81410C4F271}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\codeImage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\getProvince.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\getCity.ashx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>38734</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

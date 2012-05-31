@@ -1,0 +1,5 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.pdb

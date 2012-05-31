@@ -1,0 +1,14 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb

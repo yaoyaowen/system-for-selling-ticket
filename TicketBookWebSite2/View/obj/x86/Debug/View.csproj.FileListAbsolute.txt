@@ -1,0 +1,15 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\View.exe
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\View.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\View.login.resources
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\View.Properties.Resources.resources
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\View.exe
+C:\Users\xulei\Desktop\TicketBookWebSite\View\obj\x86\Debug\View.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\BLL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\View\bin\Debug\DAL.pdb

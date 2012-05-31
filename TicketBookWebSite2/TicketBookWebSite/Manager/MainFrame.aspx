@@ -1,0 +1,33 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainFrame.aspx.cs" Inherits="TicketBookWebSite.MainFrame" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.0 transitional//EN">
+<html>
+	<head>
+		<title>后台管理</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR"/>
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE"/>
+		<meta content="JavaScript" name="vs_defaultClientScript"/>
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema"/>
+		<script  type="text/javascript" language="javascript">
+        /*
+		    function doHideLeftWindow() {
+		        window.mainFrameSet.rows = "0,*,0";
+		        window.contentFrameSet.cols = "0,15,*";
+		    }
+		    function doShowLeftWindow() {
+		        window.mainFrameSet.rows = "58,*,26";
+		        window.contentFrameSet.cols = "220,15,*";
+		    }
+            */		
+		</script>
+	</head>
+		<frameset id="mainFrameSet" rows="100,*,26" >
+			<frame id="topFrameLogo"  src="LogoAndShow.aspx"  frameborder="0"
+				scrolling="no"/>
+			<frameset id="contentFrameSet" style="" cols="220,*" >
+				<frame id="leftFrame"  src="ListView.aspx" frameborder="0" scrolling="no"/>				
+				<frame id="mainFrame" src="" frameborder="0"scrolling="no"/>					
+			</frameset>
+			<frame id="footFrame"  src="../AreaFoot.htm" frameborder="0" scrolling="no"/>
+	    </frameset>
+</html>
