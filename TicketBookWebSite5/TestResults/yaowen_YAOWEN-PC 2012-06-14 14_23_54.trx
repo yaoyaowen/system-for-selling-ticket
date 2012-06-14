@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c80f6dea-ef56-4c74-9dd4-0af19dd8cc0d" name="yaowen@YAOWEN-PC 2012-06-14 14:23:54" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-06-14 14_23_54">
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-14T14:23:54.9196535+08:00" queuing="2012-06-14T14:24:00.3849661+08:00" start="2012-06-14T14:24:00.7139849+08:00" finish="2012-06-14T14:24:13.1426958+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="changePasswordTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="2c964f37-2756-4b3e-b0ed-5da75d9798f1" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="4622fdb6-a043-3a48-7e51-745a41ef2914">
+      <Execution id="7ffa1136-a372-4851-bfb1-b3d25224e9f6" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceText, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="3d6fab20-6ef9-4451-ba1d-49c26e47c71d" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="77489334-2211-4c1c-90f7-209707438c7c" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="31d5d7d0-7403-31e2-ed81-702b415bf387">
+      <Execution id="b6a1332c-86a1-43cd-8cb3-9fd12f948ceb" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UnitTest1, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="77489334-2211-4c1c-90f7-209707438c7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="3d6fab20-6ef9-4451-ba1d-49c26e47c71d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="2c964f37-2756-4b3e-b0ed-5da75d9798f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4622fdb6-a043-3a48-7e51-745a41ef2914" executionId="7ffa1136-a372-4851-bfb1-b3d25224e9f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31d5d7d0-7403-31e2-ed81-702b415bf387" executionId="b6a1332c-86a1-43cd-8cb3-9fd12f948ceb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="77489334-2211-4c1c-90f7-209707438c7c" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="YAOWEN-PC" duration="00:00:02.6856618" startTime="2012-06-14T14:24:00.9339975+08:00" endTime="2012-06-14T14:24:05.3742514+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77489334-2211-4c1c-90f7-209707438c7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d6fab20-6ef9-4451-ba1d-49c26e47c71d" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="YAOWEN-PC" duration="00:00:00.1927498" startTime="2012-06-14T14:24:05.3992529+08:00" endTime="2012-06-14T14:24:05.6052647+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d6fab20-6ef9-4451-ba1d-49c26e47c71d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UserSessionTest.cs:行号 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c964f37-2756-4b3e-b0ed-5da75d9798f1" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="YAOWEN-PC" duration="00:00:00.0491024" startTime="2012-06-14T14:24:05.6192655+08:00" endTime="2012-06-14T14:24:05.6822691+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c964f37-2756-4b3e-b0ed-5da75d9798f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.changePasswordTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UserSessionTest.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ffa1136-a372-4851-bfb1-b3d25224e9f6" testId="4622fdb6-a043-3a48-7e51-745a41ef2914" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.0087268" startTime="2012-06-14T14:24:05.6892695+08:00" endTime="2012-06-14T14:24:05.7162710+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ffa1136-a372-4851-bfb1-b3d25224e9f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6a1332c-86a1-43cd-8cb3-9fd12f948ceb" testId="31d5d7d0-7403-31e2-ed81-702b415bf387" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:07.2501339" startTime="2012-06-14T14:24:05.7242715+08:00" endTime="2012-06-14T14:24:12.9866868+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6a1332c-86a1-43cd-8cb3-9fd12f948ceb">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UnitTest1.TestMethod1 引发了异常: 
+NHibernate.HibernateException: Unable to locate persister: DAL.Model.preferential</Message>
+          <StackTrace>    在 NHibernate.Event.Default.DefaultLoadEventListener.OnLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.FireLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.Get(String entityName, Object id)
+   在 NHibernate.Impl.SessionImpl.Get(Type entityClass, Object id)
+   在 NHibernate.Impl.SessionImpl.Get[T](Object id)
+   在 DAL.Handle.preferentialSession.getpreferentialByID(String id) 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\preferentialSession.cs:行号 35
+   在 ticketBookTest.UnitTest1.TestMethod1() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UnitTest1.cs:行号 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

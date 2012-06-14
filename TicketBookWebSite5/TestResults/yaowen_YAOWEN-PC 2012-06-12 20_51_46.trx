@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b3a788f5-8455-4925-97d6-e9c4b4041045" name="yaowen@YAOWEN-PC 2012-06-12 20:51:46" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-06-12 20_51_46">
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-12T20:51:46.1237304+08:00" queuing="2012-06-12T20:51:47.6718189+08:00" start="2012-06-12T20:51:47.7558237+08:00" finish="2012-06-12T20:51:51.7200505+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="changePasswordTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="43369c2c-3614-451a-83cc-2ba29dffdefc" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="4622fdb6-a043-3a48-7e51-745a41ef2914">
+      <Execution id="d6779fed-94f0-4ac9-87b1-587ce34c4414" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceText, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="ed046486-be6d-4221-8bf7-72ad54e0161a" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="ab415c29-aaee-49c1-b3d3-722d18458788" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="ab415c29-aaee-49c1-b3d3-722d18458788" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="ed046486-be6d-4221-8bf7-72ad54e0161a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="43369c2c-3614-451a-83cc-2ba29dffdefc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4622fdb6-a043-3a48-7e51-745a41ef2914" executionId="d6779fed-94f0-4ac9-87b1-587ce34c4414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ab415c29-aaee-49c1-b3d3-722d18458788" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="YAOWEN-PC" duration="00:00:02.1794742" startTime="2012-06-12T20:51:47.7998262+08:00" endTime="2012-06-12T20:51:51.3090269+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab415c29-aaee-49c1-b3d3-722d18458788">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed046486-be6d-4221-8bf7-72ad54e0161a" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="YAOWEN-PC" duration="00:00:00.1527069" startTime="2012-06-12T20:51:51.3250279+08:00" endTime="2012-06-12T20:51:51.4900373+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed046486-be6d-4221-8bf7-72ad54e0161a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43369c2c-3614-451a-83cc-2ba29dffdefc" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="YAOWEN-PC" duration="00:00:00.0406747" startTime="2012-06-12T20:51:51.4980378+08:00" endTime="2012-06-12T20:51:51.5500407+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43369c2c-3614-451a-83cc-2ba29dffdefc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.changePasswordTest() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6779fed-94f0-4ac9-87b1-587ce34c4414" testId="4622fdb6-a043-3a48-7e51-745a41ef2914" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.0455995" startTime="2012-06-12T20:51:51.5590412+08:00" endTime="2012-06-12T20:51:51.6150445+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6779fed-94f0-4ac9-87b1-587ce34c4414">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.ticketfinanceText.TestMethod1 引发了异常: 
+NHibernate.HibernateException: Unable to locate persister: DAL.Model.ticketfinance</Message>
+          <StackTrace>    在 NHibernate.Event.Default.DefaultLoadEventListener.OnLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.FireLoad(LoadEvent event, LoadType loadType)
+   在 NHibernate.Impl.SessionImpl.Get(String entityName, Object id)
+   在 NHibernate.Impl.SessionImpl.Get(Type entityClass, Object id)
+   在 NHibernate.Impl.SessionImpl.Get[T](Object id)
+   在 DAL.Handle.ticketfinanceSession.getTicketfinanceByID(String id) 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\Handle\ticketfinanceSession.cs:行号 38
+   在 ticketBookTest.ticketfinanceText.TestMethod1() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\ticketfinanceText.cs:行号 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

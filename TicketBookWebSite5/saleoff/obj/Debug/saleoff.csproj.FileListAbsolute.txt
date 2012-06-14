@@ -1,0 +1,5 @@
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\saleoff\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\saleoff\bin\Debug\saleoff.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\saleoff\bin\Debug\saleoff.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\saleoff\obj\Debug\saleoff.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\saleoff\obj\Debug\saleoff.pdb

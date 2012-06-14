@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DAA62B1-ED0A-4699-80F9-4DB99B0D526C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TicketBookWebSite</RootNamespace>
+    <AssemblyName>TicketBookWebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\ui-lightness\jquery-ui-1.8.20.custom.css" />
+    <Content Include="finance.aspx" />
+    <Content Include="image\head.jpg" />
+    <Content Include="image\left.jpg" />
+    <Content Include="image\logo_.gif" />
+    <Content Include="image\right.jpg" />
+    <Content Include="Manager\preferential.aspx" />
+    <Content Include="Scripts\jquery-1.7.2.js" />
+    <Content Include="seller\BookNumTicket.htm" />
+    <Content Include="image\button\01.gif" />
+    <Content Include="image\button\01.png" />
+    <Content Include="image\button\02.gif" />
+    <Content Include="image\button\02.png" />
+    <Content Include="image\button\03.gif" />
+    <Content Include="image\button\03.png" />
+    <Content Include="image\button\04.gif" />
+    <Content Include="image\button\04.png" />
+    <Content Include="image\button\05.gif" />
+    <Content Include="image\button\05.png" />
+    <Content Include="image\button\06.gif" />
+    <Content Include="image\button\06.png" />
+    <Content Include="image\button\07.gif" />
+    <Content Include="image\button\07.png" />
+    <Content Include="image\button\08.gif" />
+    <Content Include="image\button\08.png" />
+    <Content Include="image\button\09.gif" />
+    <Content Include="image\button\09.png" />
+    <Content Include="image\button\10.gif" />
+    <Content Include="image\button\10.png" />
+    <Content Include="image\button\100.gif" />
+    <Content Include="image\button\101.gif" />
+    <Content Include="image\button\102.gif" />
+    <Content Include="image\button\103.gif" />
+    <Content Include="image\button\104.gif" />
+    <Content Include="image\button\105.gif" />
+    <Content Include="image\button\106.gif" />
+    <Content Include="image\button\107.gif" />
+    <Content Include="image\button\108.gif" />
+    <Content Include="image\button\109.gif" />
+    <Content Include="image\button\11.gif" />
+    <Content Include="image\button\11.png" />
+    <Content Include="image\button\110.gif" />
+    <Content Include="image\button\111.gif" />
+    <Content Include="image\button\112.gif" />
+    <Content Include="image\button\113.gif" />
+    <Content Include="image\button\114.gif" />
+    <Content Include="image\button\115.gif" />
+    <Content Include="image\button\116.gif" />
+    <Content Include="image\button\117.gif" />
+    <Content Include="image\button\118.gif" />
+    <Content Include="image\button\119.gif" />
+    <Content Include="image\button\12.gif" />
+    <Content Include="image\button\120.gif" />
+    <Content Include="image\button\121.gif" />
+    <Content Include="image\button\122.gif" />
+    <Content Include="image\button\13.gif" />
+    <Content Include="image\button\14.gif" />
+    <Content Include="image\button\14.png" />
+    <Content Include="image\button\15.gif" />
+    <Content Include="image\button\15.png" />
+    <Content Include="image\button\16.gif" />
+    <Content Include="image\button\16.png" />
+    <Content Include="image\button\17.gif" />
+    <Content Include="image\button\17.png" />
+    <Content Include="image\button\18.gif" />
+    <Content Include="image\button\18.png" />
+    <Content Include="image\button\19.gif" />
+    <Content Include="image\button\20.gif" />
+    <Content Include="image\button\21.gif" />
+    <Content Include="image\button\22.gif" />
+    <Content Include="image\button\23.gif" />
+    <Content Include="image\button\24.gif" />
+    <Content Include="image\button\25.gif" />
+    <Content Include="image\button\26.gif" />
+    <Content Include="image\button\27.gif" />
+    <Content Include="image\button\28.gif" />
+    <Content Include="image\button\29.gif" />
+    <Content Include="image\button\30.gif" />
+    <Content Include="image\button\31.gif" />
+    <Content Include="image\button\32.gif" />
+    <Content Include="image\button\33.gif" />
+    <Content Include="image\button\34.gif" />
+    <Content Include="image\button\35.gif" />
+    <Content Include="image\button\36.gif" />
+    <Content Include="image\button\37.gif" />
+    <Content Include="image\button\38.gif" />
+    <Content Include="image\button\39.gif" />
+    <Content Include="image\button\40.gif" />
+    <Content Include="image\button\41.gif" />
+    <Content Include="image\button\42.gif" />
+    <Content Include="image\button\43.gif" />
+    <Content Include="image\button\44.gif" />
+    <Content Include="image\button\46.gif" />
+    <Content Include="image\button\47.gif" />
+    <Content Include="image\button\57.gif" />
+    <Content Include="image\button\58.gif" />
+    <Content Include="image\button\59.gif" />
+    <Content Include="image\button\60.gif" />
+    <Content Include="image\button\61.gif" />
+    <Content Include="image\button\62.gif" />
+    <Content Include="image\button\63.gif" />
+    <Content Include="image\button\64.gif" />
+    <Content Include="image\button\65.gif" />
+    <Content Include="image\button\66.gif" />
+    <Content Include="image\button\67.gif" />
+    <Content Include="image\button\68.gif" />
+    <Content Include="image\button\69.gif" />
+    <Content Include="image\button\70.gif" />
+    <Content Include="image\button\71.gif" />
+    <Content Include="image\button\72.gif" />
+    <Content Include="image\button\73.gif" />
+    <Content Include="image\button\74.gif" />
+    <Content Include="image\button\75.gif" />
+    <Content Include="image\button\76.gif" />
+    <Content Include="image\button\77.gif" />
+    <Content Include="image\button\78.gif" />
+    <Content Include="image\button\79.gif" />
+    <Content Include="image\button\80.gif" />
+    <Content Include="image\button\81.gif" />
+    <Content Include="image\button\82.gif" />
+    <Content Include="image\button\83.gif" />
+    <Content Include="image\button\84.gif" />
+    <Content Include="image\button\85.gif" />
+    <Content Include="image\button\86.gif" />
+    <Content Include="image\button\87.gif" />
+    <Content Include="image\button\88.gif" />
+    <Content Include="image\button\89.gif" />
+    <Content Include="image\button\90.gif" />
+    <Content Include="image\button\91.gif" />
+    <Content Include="image\button\92.gif" />
+    <Content Include="image\button\93.gif" />
+    <Content Include="image\button\94.gif" />
+    <Content Include="image\button\95.gif" />
+    <Content Include="image\button\96.gif" />
+    <Content Include="image\button\97.gif" />
+    <Content Include="image\button\98.gif" />
+    <Content Include="image\button\99.gif" />
+    <Content Include="Scripts\include\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Scripts\include\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Scripts\include\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Scripts\include\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Scripts\include\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Scripts\include\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\include\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Scripts\include\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Scripts\include\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Scripts\include\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\include\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Scripts\include\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Scripts\include\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Scripts\include\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\include\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\include\jquery-ui-1.8.14.custom.css" />
+    <Content Include="Scripts\include\jquery.ui.core.min.js" />
+    <Content Include="Scripts\include\jquery.ui.position.min.js" />
+    <Content Include="Scripts\include\jquery.ui.tabs.min.js" />
+    <Content Include="Scripts\include\jquery.ui.widget.min.js" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Scripts\include\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\jquery.ui.timepicker.css" />
+    <Content Include="Scripts\jquery.ui.timepicker.js" />
+    <Content Include="seller\finance.aspx" />
+    <Content Include="seller\GroupBookTicket.aspx" />
+    <Content Include="seller\undoTicket.aspx" />
+    <Content Include="seller\arrow.png" />
+    <Content Include="seller\background_color.jpg" />
+    <Content Include="seller\datepicker.htm" />
+    <Content Include="error.htm" />
+    <Content Include="errorAuthority.htm" />
+    <Content Include="image\btn_go.gif" />
+    <Content Include="image\header-ic.jpg" />
+    <Content Include="image\header_right_top_bg.gif" />
+    <Content Include="image\main_logo.png" />
+    <Content Include="image\yz_0.jpg" />
+    <Content Include="image\main_logo.gif" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="image\background_color.jpg" />
+    <Content Include="image\car_imag.jpg" />
+    <Content Include="Manager\dealTicket.aspx" />
+    <Content Include="Manager\EditSeller.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Data\中国行政区域省市地区数据库下载.mdb" />
+    <Content Include="AreaFoot.htm" />
+    <Content Include="hibernate.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\arrow.png" />
+    <Content Include="image\bg.png" />
+    <Content Include="image\body_background.jpg" />
+    <Content Include="image\content_bg.png" />
+    <Content Include="image\content_bottom.png" />
+    <Content Include="image\content_top.png" />
+    <Content Include="image\globe.jpg" />
+    <Content Include="image\image1.jpg" />
+    <Content Include="image\image2.jpg" />
+    <Content Include="image\image3.jpg" />
+    <Content Include="image\image4.jpg" />
+    <Content Include="image\input_bg.png" />
+    <Content Include="image\latest_bg.png" />
+    <Content Include="image\login.png" />
+    <Content Include="image\login_bg.png" />
+    <Content Include="image\logo.jpg" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\main_col_bg.png" />
+    <Content Include="image\nav_bg.png" />
+    <Content Include="image\nav_hover.png" />
+    <Content Include="image\service_bg.jpg" />
+    <Content Include="image\side_col_bg.png" />
+    <Content Include="image\test_bg.png" />
+    <Content Include="image\why_bg.png" />
+    <Content Include="Manager\MainFrame.aspx" />
+    <Content Include="Manager\addTicket.aspx" />
+    <Content Include="Manager\arrow.png" />
+    <Content Include="Manager\ListView.aspx" />
+    <Content Include="LogoAndShow.aspx" />
+    <Content Include="seller\ListView.aspx" />
+    <Content Include="seller\MainFrame.aspx" />
+    <Content Include="Styles\jquery-ui-1.8.20.custom.css" />
+    <Content Include="Scripts\jquery-ui-1.8.20.custom.min.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ashx\addTicket.ashx.cs">
+      <DependentUpon>addTicket.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\bookTicket.ashx.cs">
+      <DependentUpon>bookTicket.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\AuthorityModule.cs" />
+    <Compile Include="ashx\bookTicketByNum.ashx.cs">
+      <DependentUpon>bookTicketByNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\getSitInformation.ashx.cs">
+      <DependentUpon>getSitInformation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="finance.aspx.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="finance.aspx.designer.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\dealTicket.aspx.cs">
+      <DependentUpon>dealTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\dealTicket.aspx.designer.cs">
+      <DependentUpon>dealTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\EditSeller.aspx.cs">
+      <DependentUpon>EditSeller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\EditSeller.aspx.designer.cs">
+      <DependentUpon>EditSeller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\codeImage.ashx.cs">
+      <DependentUpon>codeImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\getCity.ashx.cs">
+      <DependentUpon>getCity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\getProvince.ashx.cs">
+      <DependentUpon>getProvince.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\login.ashx.cs">
+      <DependentUpon>login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\MainFrame.aspx.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\MainFrame.aspx.designer.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\addTicket.aspx.cs">
+      <DependentUpon>addTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\addTicket.aspx.designer.cs">
+      <DependentUpon>addTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogoAndShow.aspx.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogoAndShow.aspx.designer.cs">
+      <DependentUpon>LogoAndShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\preferential.aspx.cs">
+      <DependentUpon>preferential.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\preferential.aspx.designer.cs">
+      <DependentUpon>preferential.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seller\GroupBookTicket.aspx.cs">
+      <DependentUpon>GroupBookTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\GroupBookTicket.aspx.designer.cs">
+      <DependentUpon>GroupBookTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seller\undoTicket.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>undoTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seller\undoTicket.aspx.designer.cs">
+      <DependentUpon>undoTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seller\ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seller\MainFrame.aspx.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seller\MainFrame.aspx.designer.cs">
+      <DependentUpon>MainFrame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\ValidateUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\bookTicket.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\login.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{E8455E40-D99E-4CFC-BAA3-76D9CDE8EEB5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{690F55E7-A57A-4DA4-8F53-D81410C4F271}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\codeImage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\getProvince.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\getCity.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\getSitInformation.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\addTicket.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ashx\bookTicketByNum.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>38734</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

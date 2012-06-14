@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3b4ac98b-0079-4eb9-afcf-0266b9c687e5" name="xulei@XULEI-PC 2012-05-18 20:04:37" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-05-18 20_04_37">
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T20:04:37.7761387+08:00" queuing="2012-05-18T20:04:39.2112208+08:00" start="2012-05-18T20:04:39.2972257+08:00" finish="2012-05-18T20:04:42.3774019+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="changePasswordTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="3ff88fcc-cdab-40d0-8aec-44d9020d3bd9" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="2c128ceb-fb67-49c5-bf05-d5288ff1303f" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="62ecf798-7d56-4c02-8c25-4e3f9b58166c" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="62ecf798-7d56-4c02-8c25-4e3f9b58166c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="2c128ceb-fb67-49c5-bf05-d5288ff1303f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="3ff88fcc-cdab-40d0-8aec-44d9020d3bd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62ecf798-7d56-4c02-8c25-4e3f9b58166c" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="XULEI-PC" duration="00:00:01.8932764" startTime="2012-05-18T20:04:39.3492287+08:00" endTime="2012-05-18T20:04:41.9853794+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62ecf798-7d56-4c02-8c25-4e3f9b58166c">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c128ceb-fb67-49c5-bf05-d5288ff1303f" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="XULEI-PC" duration="00:00:00.0489795" startTime="2012-05-18T20:04:41.9963801+08:00" endTime="2012-05-18T20:04:42.0583836+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c128ceb-fb67-49c5-bf05-d5288ff1303f">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ff88fcc-cdab-40d0-8aec-44d9020d3bd9" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="XULEI-PC" duration="00:00:00.0813882" startTime="2012-05-18T20:04:42.0703843+08:00" endTime="2012-05-18T20:04:42.1633896+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ff88fcc-cdab-40d0-8aec-44d9020d3bd9">
+    </UnitTestResult>
+  </Results>
+</TestRun>
