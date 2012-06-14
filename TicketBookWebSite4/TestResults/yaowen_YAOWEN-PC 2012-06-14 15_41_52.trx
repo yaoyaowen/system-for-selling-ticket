@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2f93cd57-e4a7-45d1-a36e-57fef36def7e" name="yaowen@YAOWEN-PC 2012-06-14 15:41:52" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-06-14 15_41_52">
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-14T15:41:52.1771773+08:00" queuing="2012-06-14T15:41:53.3742458+08:00" start="2012-06-14T15:41:53.5112536+08:00" finish="2012-06-14T15:41:55.7413812+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="saveTicketTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3">
+      <Execution id="ebcbd646-f388-46e7-afb3-2577352f3fb3" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.preferentialSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saveTicketTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3" executionId="ebcbd646-f388-46e7-afb3-2577352f3fb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ebcbd646-f388-46e7-afb3-2577352f3fb3" testId="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3" testName="saveTicketTest" computerName="YAOWEN-PC" duration="00:00:01.6574958" startTime="2012-06-14T15:41:53.5432554+08:00" endTime="2012-06-14T15:41:55.5973729+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebcbd646-f388-46e7-afb3-2577352f3fb3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 ticketBookTest.preferentialSessionTest.saveTicketTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\preferentialSessionTest.cs:行号 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

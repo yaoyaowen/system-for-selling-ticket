@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="DAL" assembly="DAL">
+	<class name="ticket" table="ticketinfo">
+		<id name="id" column="ID" >
+			<generator class="assigned"/>
+		</id>
+		<property name ="startpos" column="startPos" type="string"   />
+		<property name ="endpos" column="endPos"  type="string" />
+		<property name ="ticketMoney" column="ticketMoney" type="int" />
+		<property name ="totalseat" column="totalsit"  type="int"  />
+		<property name ="remainseat" column="remainsit"  type="int" />
+		<property name="date" column="DATE" type="string"/>
+		<property name="time" column="time" type="string"></property>
+    <property name="seatPosition" column="seatPosition" type="string"></property>
+	</class>
+</hibernate-mapping>
