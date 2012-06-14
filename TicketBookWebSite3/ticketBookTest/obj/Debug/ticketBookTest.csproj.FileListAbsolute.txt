@@ -1,0 +1,72 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\hibernate.cfg.xml
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\ticket.hbm.xml
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\ticketBookTest.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\Castle.Core.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\NHibernate.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\obj\Debug\ticketBookTest.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\saleoff.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\ticketBookTest\bin\Debug\saleoff.pdb

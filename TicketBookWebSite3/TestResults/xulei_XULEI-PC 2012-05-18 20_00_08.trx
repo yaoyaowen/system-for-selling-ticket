@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f5ea9c4-49cc-4f1c-b752-845dd7e2b026" name="xulei@XULEI-PC 2012-05-18 20:00:08" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-05-18 20_00_08">
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\xulei\Desktop\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-18T20:00:08.7177494+08:00" queuing="2012-05-18T20:00:10.0508257+08:00" start="2012-05-18T20:00:10.2188353+08:00" finish="2012-05-18T20:00:26.9067898+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="changePasswordTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="f86875f6-9e0c-43a0-99b0-4e137006e6ad" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="8523bffb-5779-4bd4-a822-dc991e42308d" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\xulei\desktop\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="cc89b16d-18d1-4044-87c8-0d9b24ce9d59" />
+      <TestMethod codeBase="C:/Users/xulei/Desktop/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="cc89b16d-18d1-4044-87c8-0d9b24ce9d59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="8523bffb-5779-4bd4-a822-dc991e42308d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="f86875f6-9e0c-43a0-99b0-4e137006e6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cc89b16d-18d1-4044-87c8-0d9b24ce9d59" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="XULEI-PC" duration="00:00:01.9051063" startTime="2012-05-18T20:00:10.3158408+08:00" endTime="2012-05-18T20:00:12.9549918+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc89b16d-18d1-4044-87c8-0d9b24ce9d59">
+    </UnitTestResult>
+    <UnitTestResult executionId="8523bffb-5779-4bd4-a822-dc991e42308d" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="XULEI-PC" duration="00:00:10.9603268" startTime="2012-05-18T20:00:12.9809933+08:00" endTime="2012-05-18T20:00:23.9536209+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8523bffb-5779-4bd4-a822-dc991e42308d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f86875f6-9e0c-43a0-99b0-4e137006e6ad" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="XULEI-PC" duration="00:00:02.7601624" startTime="2012-05-18T20:00:23.9726220+08:00" endTime="2012-05-18T20:00:26.7567812+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f86875f6-9e0c-43a0-99b0-4e137006e6ad">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;True&gt;，实际为: &lt;False&gt;。</Message>
+          <StackTrace>   在 ticketBookTest.UserSessionTest.changePasswordTest() 位置 C:\Users\xulei\Desktop\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

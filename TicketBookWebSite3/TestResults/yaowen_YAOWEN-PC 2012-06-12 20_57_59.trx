@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc488e1b-88ff-4089-9a6b-92c979969f2f" name="yaowen@YAOWEN-PC 2012-06-12 20:57:59" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-06-12 20_57_59">
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\web\TicketBookWebSite\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-12T20:57:59.6880970+08:00" queuing="2012-06-12T20:58:01.2281851+08:00" start="2012-06-12T20:58:01.3191903+08:00" finish="2012-06-12T20:58:04.9864001+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="changePasswordTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="8fcf0716-2a09-4bf1-b344-d98d05a2f8ee" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="4622fdb6-a043-3a48-7e51-745a41ef2914">
+      <Execution id="d5037f6a-aa63-4247-b4bc-34a49dc0f05f" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceText, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="edd74e8f-69de-4329-a539-f04864101c7d" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\yaowen\desktop\web\ticketbookwebsite\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="89744d4e-c9bd-46ea-a87f-7f869175683a" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/web/TicketBookWebSite/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="89744d4e-c9bd-46ea-a87f-7f869175683a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="edd74e8f-69de-4329-a539-f04864101c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="8fcf0716-2a09-4bf1-b344-d98d05a2f8ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4622fdb6-a043-3a48-7e51-745a41ef2914" executionId="d5037f6a-aa63-4247-b4bc-34a49dc0f05f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="89744d4e-c9bd-46ea-a87f-7f869175683a" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="YAOWEN-PC" duration="00:00:01.9514313" startTime="2012-06-12T20:58:01.3631928+08:00" endTime="2012-06-12T20:58:04.5843771+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89744d4e-c9bd-46ea-a87f-7f869175683a">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.ticketSessionTest.getTicketByIDTest 引发了异常: 
+NHibernate.PropertyNotFoundException: Could not find a getter for property 'income' in class 'DAL.ticketfinance'</Message>
+          <StackTrace>    在 NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   在 NHibernate.Mapping.Property.GetGetter(Type clazz)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildPropertyGetter(Property mappedProperty, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.ticketSession..ctor() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\Handle\ticketSession.cs:行号 24
+   在 ticketBookTest.ticketSessionTest.getTicketByIDTest() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\ticketSessionTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="edd74e8f-69de-4329-a539-f04864101c7d" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="YAOWEN-PC" duration="00:00:00.0712853" startTime="2012-06-12T20:58:04.6003780+08:00" endTime="2012-06-12T20:58:04.6813826+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edd74e8f-69de-4329-a539-f04864101c7d">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UserSessionTest.ValidateUserTest 引发了异常: 
+NHibernate.PropertyNotFoundException: Could not find a getter for property 'income' in class 'DAL.ticketfinance'</Message>
+          <StackTrace>    在 NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   在 NHibernate.Mapping.Property.GetGetter(Type clazz)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildPropertyGetter(Property mappedProperty, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.UserSession..ctor() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\Handle\UserSession.cs:行号 20
+   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8fcf0716-2a09-4bf1-b344-d98d05a2f8ee" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="YAOWEN-PC" duration="00:00:00.0709407" startTime="2012-06-12T20:58:04.6893831+08:00" endTime="2012-06-12T20:58:04.7713878+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fcf0716-2a09-4bf1-b344-d98d05a2f8ee">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UserSessionTest.changePasswordTest 引发了异常: 
+NHibernate.PropertyNotFoundException: Could not find a getter for property 'income' in class 'DAL.ticketfinance'</Message>
+          <StackTrace>    在 NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   在 NHibernate.Mapping.Property.GetGetter(Type clazz)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildPropertyGetter(Property mappedProperty, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.UserSession..ctor() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\Handle\UserSession.cs:行号 20
+   在 ticketBookTest.UserSessionTest.changePasswordTest() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\UserSessionTest.cs:行号 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5037f6a-aa63-4247-b4bc-34a49dc0f05f" testId="4622fdb6-a043-3a48-7e51-745a41ef2914" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.0767861" startTime="2012-06-12T20:58:04.7793882+08:00" endTime="2012-06-12T20:58:04.8663932+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5037f6a-aa63-4247-b4bc-34a49dc0f05f">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.ticketfinanceText.TestMethod1 引发了异常: 
+NHibernate.PropertyNotFoundException: Could not find a getter for property 'income' in class 'DAL.ticketfinance'</Message>
+          <StackTrace>    在 NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   在 NHibernate.Mapping.Property.GetGetter(Type clazz)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildPropertyGetter(Property mappedProperty, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.ticketfinanceSession..ctor() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\Handle\ticketfinanceSession.cs:行号 24
+   在 ticketBookTest.ticketfinanceText.TestMethod1() 位置 C:\Users\yaowen\Desktop\web\TicketBookWebSite\ticketBookTest\ticketfinanceText.cs:行号 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

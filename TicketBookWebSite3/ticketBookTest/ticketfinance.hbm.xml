@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="DAL" assembly="DAL">
+	<class name="ticketfinance" table="ticketfiance">
+		<id name="id" column="ID" >
+			<generator class="assigned"/>
+		</id>
+		<property name ="startPoint" column="startPoint" type="string"   />
+		<property name ="endPoint" column="endPoint"  type="string" />
+		<property name ="price" column="price" type="int" />
+		<property name ="sellNum" column="sellNum"  type="int"  />
+		<property name ="undoNum" column="undoNum"  type="int" />
+		<property name="income" column="income" type="int"/>
+	</class>
+</hibernate-mapping>

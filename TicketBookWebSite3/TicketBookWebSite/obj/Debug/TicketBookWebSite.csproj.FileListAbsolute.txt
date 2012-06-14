@@ -1,0 +1,72 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\TicketBookWebSite.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\BLL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\NHibernate.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\BLL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\Newtonsoft.Json.xml
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\obj\Debug\TicketBookWebSite.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\saleoff.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\TicketBookWebSite\bin\saleoff.pdb

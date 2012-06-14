@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
+
+    <script type="text/javascript" src="Scripts/jquery-ui-1.8.20.custom.min.js"></script>
+
+
+    <link href="css/ui-lightness/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css" />
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker').datepicker({
+            
+                closeText: '关闭',
+                currentText: '今天:'+new Date(),
+                dataFormat:  'yy/mm/dd',
+                maxDate:  '+7d',
+                minDate: new Date(),
+                numberOfMonths:2,
+                prevText : 'yy/mm',
+                showMonthAfterYear : true,
+                showButtonPanel:true,
+
+            });
+
+
+
+        });
+
+
+
+         //$(".datapicket").datepicker("show");
+
+        /*
+        <table>
+        <caption>订票页面</caption>
+        <tr><td>出发地点:</td><td><input type='text' id="endPos" /></td></tr>
+        <tr><td>出发时间：</td><td><input type='text' id="endTime"  class="" /></td></tr>
+        <tr><td>车次信息：</td><td><label id="carID"></label></td></tr>
+        <tr><td>座位信息：</td><td><select id="selectSite"></select></td></tr>
+        <tr><td><div class="datepicker"></div></td></tr>    </table>
+          */  
+          
+    </script>
+
+
+</head>
+<body>
+    
+    <input type=text class="datepicker" id="datepicker" />
+
+</body>
+</html>
