@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9db0b210-21d1-47a2-9940-aa726435463c" name="xulei@XULEI-PC 2012-06-15 13:28:08" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-06-15 13_28_08">
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\Castle.Core.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\NHibernate.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-15T13:28:08.3407781+08:00" queuing="2012-06-15T13:28:09.5288461+08:00" start="2012-06-15T13:28:09.7208571+08:00" finish="2012-06-15T13:28:24.0316756+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="7" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="6" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="XULEI-PC" outcome="Error" timestamp="2012-06-15T13:28:24.0306756+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="addTicketfinanceTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="03312413-d668-cc90-6556-2f9539542e50">
+      <Execution id="d6007b22-5798-42ce-a098-31bed6a0fa86" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addTicketfinanceTest" />
+    </UnitTest>
+    <UnitTest name="saveTicketTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3">
+      <Execution id="5166b479-830b-4d07-97f5-ca4eac185cbe" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.preferentialSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saveTicketTest" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="927539dc-4863-421e-becb-974e4453bb77" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="changePasswordTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="007c0ada-32f6-4d80-93df-670d5d8f21f7" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="4622fdb6-a043-3a48-7e51-745a41ef2914">
+      <Execution id="c31bd727-0879-4322-ae9b-e31e524fe53d" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceText, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="826d7414-51d6-560f-0706-77f4dc95073a">
+      <Execution id="d825ba4b-9dc0-401e-a017-a14cdeafaa6c" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UnitTest1, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="56841944-376d-4be4-bbc2-0cc25ac83d0f" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="826d7414-51d6-560f-0706-77f4dc95073a" executionId="d825ba4b-9dc0-401e-a017-a14cdeafaa6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3" executionId="5166b479-830b-4d07-97f5-ca4eac185cbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="927539dc-4863-421e-becb-974e4453bb77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="007c0ada-32f6-4d80-93df-670d5d8f21f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="56841944-376d-4be4-bbc2-0cc25ac83d0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4622fdb6-a043-3a48-7e51-745a41ef2914" executionId="c31bd727-0879-4322-ae9b-e31e524fe53d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03312413-d668-cc90-6556-2f9539542e50" executionId="d6007b22-5798-42ce-a098-31bed6a0fa86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d825ba4b-9dc0-401e-a017-a14cdeafaa6c" testId="826d7414-51d6-560f-0706-77f4dc95073a" testName="TestMethod2" computerName="XULEI-PC" duration="00:00:14.1708105" startTime="2012-06-15T13:28:09.8608651+08:00" endTime="2012-06-15T13:28:24.0316756+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d825ba4b-9dc0-401e-a017-a14cdeafaa6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5166b479-830b-4d07-97f5-ca4eac185cbe" testId="ec008cdd-b77f-3422-4fe3-3f3ee3035ae3" testName="saveTicketTest" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5166b479-830b-4d07-97f5-ca4eac185cbe">
+    </UnitTestResult>
+    <UnitTestResult executionId="927539dc-4863-421e-becb-974e4453bb77" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="927539dc-4863-421e-becb-974e4453bb77">
+    </UnitTestResult>
+    <UnitTestResult executionId="007c0ada-32f6-4d80-93df-670d5d8f21f7" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="007c0ada-32f6-4d80-93df-670d5d8f21f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="56841944-376d-4be4-bbc2-0cc25ac83d0f" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56841944-376d-4be4-bbc2-0cc25ac83d0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="c31bd727-0879-4322-ae9b-e31e524fe53d" testId="4622fdb6-a043-3a48-7e51-745a41ef2914" testName="TestMethod1" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c31bd727-0879-4322-ae9b-e31e524fe53d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d6007b22-5798-42ce-a098-31bed6a0fa86" testId="03312413-d668-cc90-6556-2f9539542e50" testName="addTicketfinanceTest" computerName="XULEI-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6007b22-5798-42ce-a098-31bed6a0fa86">
+    </UnitTestResult>
+  </Results>
+</TestRun>

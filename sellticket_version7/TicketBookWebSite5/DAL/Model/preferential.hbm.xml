@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="DAL" assembly="DAL">
+	<class name="preferential" table="preferential">
+		<id name="id" column="id" >
+			<generator class="assigned"/>
+		</id>
+		<property name ="person"  column="person"   type="float" />
+		<property name ="student" column="student"  type="float" />
+		<property name ="soldier" column="soldier"  type="float" />
+		<property name ="group"   column="gp"    type="float" />
+		<property name ="undo"    column="ud"     type="float" />
+	</class>
+</hibernate-mapping>

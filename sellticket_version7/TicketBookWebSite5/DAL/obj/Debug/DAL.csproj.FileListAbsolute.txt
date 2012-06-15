@@ -1,0 +1,102 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\Castle.Core.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\Iesi.Collections.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\NHibernate.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\DAL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\DAL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\DAL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\Castle.Core.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\castle.dynamicproxy2.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\Iesi.Collections.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\DAL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\DAL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\DAL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\Castle.Core.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\bin\Debug\NHibernate.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\obj\Debug\DAL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\DAL\obj\Debug\DAL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\DAL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\DAL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\Castle.Core.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\castle.dynamicproxy2.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\Iesi.Collections.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\obj\Debug\DAL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\DAL\obj\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\Castle.Core.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\NHibernate.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\obj\Debug\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\obj\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\saleoff.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\DAL\bin\Debug\saleoff.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\obj\Debug\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\obj\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\DAL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\DAL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\Castle.Core.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\castle.dynamicproxy2.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\Iesi.Collections.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\NHibernate.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\DAL.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\DAL.pdb
+D:\TicketBookWebSite4\DAL\bin\Debug\Castle.Core.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\castle.dynamicproxy2.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\Iesi.Collections.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\TicketBookWebSite4\DAL\bin\Debug\NHibernate.dll
+D:\TicketBookWebSite4\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\TicketBookWebSite4\DAL\obj\Debug\DAL.dll
+D:\TicketBookWebSite4\DAL\obj\Debug\DAL.pdb
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\obj\Debug\DAL.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\obj\Debug\DAL.pdb
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\DAL.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\DAL.pdb
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\Castle.Core.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\castle.dynamicproxy2.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\Iesi.Collections.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\DAL\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.pdb
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\Castle.Core.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\castle.dynamicproxy2.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\Iesi.Collections.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\NHibernate.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\DAL.dll
+I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\DAL.pdb
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.pdb
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\Castle.Core.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\castle.dynamicproxy2.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\Iesi.Collections.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\NHibernate.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\DAL.dll
+C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\obj\Debug\DAL.pdb

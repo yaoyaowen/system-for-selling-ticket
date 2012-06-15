@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="634d775f-2b69-43c2-8c2f-76feb8bdd0b2" name="xulei@XULEI-PC 2012-06-15 13:22:15" runUser="xulei-PC\xulei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="xulei_XULEI-PC 2012-06-15 13_22_15">
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\Castle.Core.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\NHibernate.dll" />
+      <DeploymentItem filename="C:\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-15T13:22:15.0015683+08:00" queuing="2012-06-15T13:22:18.5837732+08:00" start="2012-06-15T13:22:18.8557887+08:00" finish="2012-06-15T13:22:24.5221128+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="addTicketfinanceTest" storage="c:\长途汽车售票（姚耀文，徐磊）\ticketbookwebsite5\ticketbooktest\bin\debug\ticketbooktest.dll" id="03312413-d668-cc90-6556-2f9539542e50">
+      <Execution id="bd32ec2f-bcbd-4541-a8bd-80732aa1ac94" />
+      <TestMethod codeBase="C:/长途汽车售票（姚耀文，徐磊）/TicketBookWebSite5/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addTicketfinanceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03312413-d668-cc90-6556-2f9539542e50" executionId="bd32ec2f-bcbd-4541-a8bd-80732aa1ac94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd32ec2f-bcbd-4541-a8bd-80732aa1ac94" testId="03312413-d668-cc90-6556-2f9539542e50" testName="addTicketfinanceTest" computerName="XULEI-PC" duration="00:00:04.8615939" startTime="2012-06-15T13:22:18.9667951+08:00" endTime="2012-06-15T13:22:24.4431083+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd32ec2f-bcbd-4541-a8bd-80732aa1ac94">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 ticketBookTest.ticketfinanceSessionTest.addTicketfinanceTest() 位置 I:\Users\xulei\Desktop\长途汽车售票（姚耀文，徐磊）\TicketBookWebSite5\ticketBookTest\ticketfinanceSessionTest.cs:行号 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

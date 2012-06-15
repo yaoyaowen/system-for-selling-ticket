@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b74286ee-045d-41af-97ef-4c1829730af6" name="yaowen@YAOWEN-PC 2012-06-14 14:33:17" runUser="yaowen-PC\yaowen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1ff404fe-f118-486d-b728-2179d9e1be88">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="yaowen_YAOWEN-PC 2012-06-14 14_33_17">
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\bin\Debug\DAL.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\castle.dynamicproxy2.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\NHibernate.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-14T14:33:17.7228440+08:00" queuing="2012-06-14T14:33:22.1790989+08:00" start="2012-06-14T14:33:22.4271130+08:00" finish="2012-06-14T14:33:26.1453257+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="826d7414-51d6-560f-0706-77f4dc95073a">
+      <Execution id="74a4f78e-4f01-4b2e-a166-6d817835e8c8" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UnitTest1, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="changePasswordTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b">
+      <Execution id="e0b39a76-8085-4a79-af92-a1b18247d89b" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="changePasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="4622fdb6-a043-3a48-7e51-745a41ef2914">
+      <Execution id="5743dab1-91ec-46ee-87d1-f0900c6c9e15" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketfinanceText, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ValidateUserTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae">
+      <Execution id="04766882-50a5-487b-9803-c40f21edffd7" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.UserSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateUserTest" />
+    </UnitTest>
+    <UnitTest name="getTicketByIDTest" storage="c:\users\yaowen\desktop\新建文件夹 (2)\ticketbookwebsite4\ticketbooktest\bin\debug\ticketbooktest.dll" id="18ae8939-e637-6c1f-550f-fa6650834d96">
+      <Execution id="2df1dd35-1f27-406e-a8eb-9d109b33cf00" />
+      <TestMethod codeBase="C:/Users/yaowen/Desktop/新建文件夹 (2)/TicketBookWebSite4/ticketBookTest/bin/Debug/ticketBookTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ticketBookTest.ticketSessionTest, ticketBookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTicketByIDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18ae8939-e637-6c1f-550f-fa6650834d96" executionId="2df1dd35-1f27-406e-a8eb-9d109b33cf00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" executionId="04766882-50a5-487b-9803-c40f21edffd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" executionId="e0b39a76-8085-4a79-af92-a1b18247d89b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4622fdb6-a043-3a48-7e51-745a41ef2914" executionId="5743dab1-91ec-46ee-87d1-f0900c6c9e15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="826d7414-51d6-560f-0706-77f4dc95073a" executionId="74a4f78e-4f01-4b2e-a166-6d817835e8c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2df1dd35-1f27-406e-a8eb-9d109b33cf00" testId="18ae8939-e637-6c1f-550f-fa6650834d96" testName="getTicketByIDTest" computerName="YAOWEN-PC" duration="00:00:01.4970378" startTime="2012-06-14T14:33:22.5441197+08:00" endTime="2012-06-14T14:33:25.4672869+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2df1dd35-1f27-406e-a8eb-9d109b33cf00">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.ticketSessionTest.getTicketByIDTest 引发了异常: 
+NHibernate.MappingException: Could not compile the mapping document: DAL.Model.preferential.hbm.xml ---&gt; NHibernate.MappingException: persistent class DAL.preferential, DAL not found ---&gt; System.TypeLoadException: 未能从程序集“DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“DAL.preferential”。</Message>
+          <StackTrace>    在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.ClassForName(String name)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.ticketSession..ctor() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\ticketSession.cs:行号 24
+   在 ticketBookTest.ticketSessionTest.getTicketByIDTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\ticketSessionTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04766882-50a5-487b-9803-c40f21edffd7" testId="3cbd35f7-7dc5-e0f4-ae17-6e1cb060f3ae" testName="ValidateUserTest" computerName="YAOWEN-PC" duration="00:00:00.1088519" startTime="2012-06-14T14:33:25.5392910+08:00" endTime="2012-06-14T14:33:25.6652983+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04766882-50a5-487b-9803-c40f21edffd7">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UserSessionTest.ValidateUserTest 引发了异常: 
+NHibernate.MappingException: Could not compile the mapping document: DAL.Model.preferential.hbm.xml ---&gt; NHibernate.MappingException: persistent class DAL.preferential, DAL not found ---&gt; System.TypeLoadException: 未能从程序集“DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“DAL.preferential”。</Message>
+          <StackTrace>    在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.ClassForName(String name)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.UserSession..ctor() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\UserSession.cs:行号 20
+   在 ticketBookTest.UserSessionTest.ValidateUserTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UserSessionTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0b39a76-8085-4a79-af92-a1b18247d89b" testId="5ec55872-1f8e-7b8d-b15c-1dc76c5edf4b" testName="changePasswordTest" computerName="YAOWEN-PC" duration="00:00:00.1045481" startTime="2012-06-14T14:33:25.6752988+08:00" endTime="2012-06-14T14:33:25.7943056+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0b39a76-8085-4a79-af92-a1b18247d89b">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UserSessionTest.changePasswordTest 引发了异常: 
+NHibernate.MappingException: Could not compile the mapping document: DAL.Model.preferential.hbm.xml ---&gt; NHibernate.MappingException: persistent class DAL.preferential, DAL not found ---&gt; System.TypeLoadException: 未能从程序集“DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“DAL.preferential”。</Message>
+          <StackTrace>    在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.ClassForName(String name)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.UserSession..ctor() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\UserSession.cs:行号 20
+   在 ticketBookTest.UserSessionTest.changePasswordTest() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UserSessionTest.cs:行号 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5743dab1-91ec-46ee-87d1-f0900c6c9e15" testId="4622fdb6-a043-3a48-7e51-745a41ef2914" testName="TestMethod1" computerName="YAOWEN-PC" duration="00:00:00.1034507" startTime="2012-06-14T14:33:25.8013060+08:00" endTime="2012-06-14T14:33:25.9143125+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5743dab1-91ec-46ee-87d1-f0900c6c9e15">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.ticketfinanceText.TestMethod1 引发了异常: 
+NHibernate.MappingException: Could not compile the mapping document: DAL.Model.preferential.hbm.xml ---&gt; NHibernate.MappingException: persistent class DAL.preferential, DAL not found ---&gt; System.TypeLoadException: 未能从程序集“DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“DAL.preferential”。</Message>
+          <StackTrace>    在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.ClassForName(String name)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.ticketfinanceSession..ctor() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\ticketfinanceSession.cs:行号 24
+   在 ticketBookTest.ticketfinanceText.TestMethod1() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\ticketfinanceText.cs:行号 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74a4f78e-4f01-4b2e-a166-6d817835e8c8" testId="826d7414-51d6-560f-0706-77f4dc95073a" testName="TestMethod2" computerName="YAOWEN-PC" duration="00:00:00.1050521" startTime="2012-06-14T14:33:25.9223130+08:00" endTime="2012-06-14T14:33:26.0373195+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74a4f78e-4f01-4b2e-a166-6d817835e8c8">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 ticketBookTest.UnitTest1.TestMethod2 引发了异常: 
+NHibernate.MappingException: Could not compile the mapping document: DAL.Model.preferential.hbm.xml ---&gt; NHibernate.MappingException: persistent class DAL.preferential, DAL not found ---&gt; System.TypeLoadException: 未能从程序集“DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“DAL.preferential”。</Message>
+          <StackTrace>    在 System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   在 NHibernate.Util.ReflectHelper.ClassForName(String name)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   在 NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   在 NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 NHibernate.Cfg.Configuration.Configure()
+   在 DAL.NHibernateHelper.GetSessionFactory() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 21
+   在 DAL.NHibernateHelper.GetSession() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\NHibernateHelper.cs:行号 28
+   在 DAL.Handle.preferentialSession..ctor() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\DAL\Handle\preferentialSession.cs:行号 21
+   在 ticketBookTest.UnitTest1.TestMethod2() 位置 C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\ticketBookTest\UnitTest1.cs:行号 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

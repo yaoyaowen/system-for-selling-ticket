@@ -1,0 +1,38 @@
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+C:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+I:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+I:\Users\xulei\Desktop\TicketBookWebSite\BLL\obj\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+C:\Users\yaowen\Desktop\web\TicketBookWebSite\BLL\obj\Debug\BLL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+I:\Users\xulei\Desktop\敏捷\TicketBookWebSite\BLL\obj\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\BLL\bin\Debug\BLL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\BLL\bin\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\BLL\obj\Debug\BLL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite\BLL\obj\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\BLL\bin\Debug\BLL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\BLL\bin\Debug\BLL.pdb
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\BLL\obj\Debug\BLL.dll
+C:\Users\yaowen\Desktop\新建文件夹 (2)\TicketBookWebSite4\BLL\obj\Debug\BLL.pdb
+D:\TicketBookWebSite4\BLL\bin\Debug\BLL.dll
+D:\TicketBookWebSite4\BLL\bin\Debug\BLL.pdb
+D:\TicketBookWebSite4\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\TicketBookWebSite4\BLL\obj\Debug\BLL.dll
+D:\TicketBookWebSite4\BLL\obj\Debug\BLL.pdb
+D:\Users\yyw\Desktop\TicketBookWebSite4\BLL\bin\Debug\BLL.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\BLL\bin\Debug\BLL.pdb
+D:\Users\yyw\Desktop\TicketBookWebSite4\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\yyw\Desktop\TicketBookWebSite4\BLL\obj\Debug\BLL.dll
+D:\Users\yyw\Desktop\TicketBookWebSite4\BLL\obj\Debug\BLL.pdb

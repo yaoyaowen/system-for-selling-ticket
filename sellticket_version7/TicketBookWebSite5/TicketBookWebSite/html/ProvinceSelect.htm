@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $.post("getProvince.ashx", {}, function (data) {
+
+                //alert(data);
+
+                var arrayProvince = data.split(" ");
+
+                for (var i in arrayProvince) {
+                    var temp = '<option label="' + arrayProvince[i] + '" value="' + arrayProvince[i] + '"></option>';
+                    $(temp).appendTo("#selectPronvice");
+                }
+
+            });
+
+
+            $("#selectPronvice").change(function () {
+                $("#selectCity").empty();
+
+                var province = $("#selectPronvice option:selected").val();
+
+                $.post("getCity.ashx", { "province": province }, function (data) {
+                    var arrayProvince = data.split(" ");
+
+
+                    for (var i in arrayProvince) {
+                        var temp = '<option label="' + arrayProvince[i] + '" value="' + arrayProvince[i] + '"></option>';
+                        $(temp).appendTo("#selectCity");
+                    }
+                });
+
+            });
+
+        });
+    
+    </script>
+
+</head>
+<body>
+
+    <div>
+        <select id="selectPronvice" onchange="">
+                     
+        </select>
+
+        <select id="selectCity">
+        
+        </select>
+    
+    </div>
+
+</body>
+</html>
